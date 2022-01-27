@@ -44,7 +44,7 @@ app.use(
   })
 );
 
-// app.use("/api/v1/customer", customerRoutes);
+app.use("/api/v1/email", emailRoutes);
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));

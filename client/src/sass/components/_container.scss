@@ -1,0 +1,26 @@
+.public-contact-container {
+  border: 2px solid darken($color: #0000ff, $amount: 0.5);
+  height: 50%;
+  max-height: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 30%;
+  white-space: pre-wrap;
+
+  @media (max-width: 1280px) {
+    width: 50%;
+  }
+
+  @media (max-width: 960px) {
+    width: 75%;
+  }
+
+  @media (max-width: 600px) {
+    width: 90%;
+  }
+
+  &-short {
+    height: 33%;
+    max-height: 70px;
+  }
+}
