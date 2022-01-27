@@ -1,0 +1,35 @@
+{
+  "name": "bayhawk-dealership-consulting",
+  "version": "1.0.0",
+  "description": "Public Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server -i client",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Michael Camara",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.5.0",
+    "axios": "^0.21.4",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "date-fns": "^2.25.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.0",
+    "helmet": "^4.6.0",
+    "multer": "^1.4.3",
+    "twilio": "^3.70.0",
+    "twilio-cli": "^2.32.1",
+    "uuid": "^8.3.2",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.14"
+  }
+}

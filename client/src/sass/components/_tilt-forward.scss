@@ -1,0 +1,5 @@
+.tilt-forward {
+  max-width: 100%;
+  transform: perspective(1000px) rotateX(15deg);
+  transition: all 0.8s ease;
+}

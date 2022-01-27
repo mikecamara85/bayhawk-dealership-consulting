@@ -1,0 +1,29 @@
+.icon {
+  height: 5rem;
+  width: 5rem;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.icon-tools {
+  fill: darken($color: #910dff, $amount: 10%);
+}
+
+.icon-large {
+  height: 8rem;
+  width: 8rem;
+
+  @media (max-width: 768px) {
+    height: 6.5rem;
+    width: 6.5rem;
+  }
+
+  @media (max-height: 400px) {
+    height: 6.5rem;
+    width: 6.5rem;
+  }
+}
+
+.icon-lock {
+  fill: $light-blue-hex;
+}

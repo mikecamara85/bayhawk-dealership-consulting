@@ -1,0 +1,55 @@
+.card-row {
+  flex-direction: row;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+}
+
+.card {
+  box-shadow: 0rem 1.5rem 1.5rem darkgrey;
+  border: 0px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.review-card {
+  border: 2px solid $blue-hex;
+
+  &-heading {
+    background-color: $dimgrey;
+    display: flex;
+    width: 100%;
+
+    &-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 1rem;
+    }
+  }
+}
+
+.avatar {
+  background-color: white;
+  background-size: contain;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+
+  &-1 {
+    background-image: url("../images/95.jpg");
+  }
+
+  &-2 {
+    background-image: url("../images/77.jpg");
+  }
+
+  &-3 {
+    background-image: url("../images/ray.PNG");
+  }
+}

@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Oswald Light";
+  src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("../fonts/FiraCodeiScript-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Zen Tokyo Zoo";
+  src: url("../fonts/ZenTokyoZoo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/FiraSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf");
+}
+
+.quick-solutions-heading {
+  color: white;
+  font-family: "Lato";
+  font-size: 3rem;
+  margin-left: 2rem;
+  text-shadow: 0px 0px 10px black;
+}
+
+.quick-solutions-logo {
+  -webkit-filter: drop-shadow(0px 0px 5px black);
+  filter: drop-shadow(0px 0px 5px black);
+
+  // &:hover {
+  //   -webkit-filter: drop-shadow(0px 0px 5px $orange-hex);
+  //   filter: drop-shadow(0px 0px 5px $orange-hex);
+  // }
+}
+
+.logo-text {
+  background: -webkit-linear-gradient(blue, black);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Oswald Light";
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.main-heading {
+  font-family: "Oswald Light";
+  font-size: 8rem;
+
+  @media (max-width: 768px) {
+    font-size: 6.5rem;
+  }
+
+  @media (max-height: 400px) {
+    font-size: 6.5rem;
+  }
+}
+
+.subheading {
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+
+  @media (max-width: 600px) {
+    letter-spacing: 0.1rem;
+  }
+}
+
+.fira {
+  font-family: "Fira Code";
+}
+
+.center-text {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-character;
+  -webkit-text-justify: inter-character;
+}
+
+.dark-blue-text {
+  color: darken($color: #0000ff, $amount: 0.5);
+}
+
+.light-blue-text {
+  color: $light-blue-hex;
+}
+
+.blue-gradient-text {
+  background: -webkit-linear-gradient(90deg, #0000ff, #0d8cff, #0d8cff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.purple-text {
+  color: $purple-hex;
+}
+
+.dim-grey-text {
+  color: $dimgrey;
+}
+
+.white-text {
+  color: white;
+  text-shadow: 0px 0px 0.5rem black;
+
+  &-dark-background {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0rem 0rem 2rem black;
+    padding: 0.5rem;
+  }
+}
+
+.red-text {
+  color: $red-hex;
+  text-shadow: 0px 0px 1px white;
+}
+
+.bright-blue-text {
+  color: $light-blue-hex;
+  text-shadow: 0px 0px 1px white;
+}
+
+.colorful-text {
+  background: -webkit-linear-gradient(
+    0deg,
+    #910dff,
+    darken($color: #ffa719, $amount: 10%),
+    #0000ff,
+    darken($color: #efff19, $amount: 15%),
+    #0d8cff
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.xl-text {
+  font-size: 3rem;
+}
+
+.large-text {
+  font-size: 2.25rem;
+}
+
+.medium-text {
+  font-size: 1.75rem;
+}
+
+.small-text {
+  font-size: 1.25rem;
+}
+
+.lead-zen-title {
+  color: #086499;
+  font-family: Zen Tokyo Zoo;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.lead-zen-subheading {
+  color: #00997d;
+  font-family: Fira Sans;
+  font-size: 3rem;
+  line-height: 3.25rem;
+  letter-spacing: 0.15rem;
+}

@@ -1,0 +1,98 @@
+.full-width {
+  width: 100%;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+
+  @media (max-width: 768px) {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
+}
+
+.process-row {
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  &-reverse {
+    @media (max-width: 768px) {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+.process-col {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 49.99999%;
+  @media (max-width: 768px) {
+    padding-top: 2rem;
+    width: 100%;
+  }
+}
+
+.responsive-text-column {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 2.5rem;
+  justify-content: center;
+  height: 100%;
+  width: 49.99999%;
+  @media (max-width: 768px) {
+    font-size: 2.25rem;
+    width: 80%;
+  }
+
+  @media (max-height: 768px) {
+    font-size: 2.25rem;
+    width: 90%;
+  }
+}
+
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-row {
+  box-shadow: 0rem 0rem 2rem #696969;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+.project-col {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col {
+  align-items: center;
+  background-color: $dimgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

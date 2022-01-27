@@ -1,0 +1,25 @@
+.arrow-down-right {
+  color: $blue-hex;
+  font-family: "Fira Code";
+  font-size: 4rem;
+  padding-top: 2rem;
+  text-align: center;
+  transform: rotateZ(45deg);
+
+  @media (max-width: 768px) {
+    transform: rotateZ(90deg);
+  }
+}
+
+.arrow-down-left {
+  color: $blue-hex;
+  font-family: "Fira Code";
+  font-size: 4rem;
+  padding-top: 2rem;
+  text-align: center;
+  transform: rotateZ(135deg);
+
+  @media (max-width: 768px) {
+    transform: rotateZ(90deg);
+  }
+}
