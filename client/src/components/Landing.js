@@ -177,9 +177,6 @@ export const Landing = () => {
             className="process-col d-flex rounded"
             src="/dialogue.jpg"
             alt="dialogue"
-            onClick={() => {
-              history.push("https://www.leadzen.cc");
-            }}
           />
         </div>
         {/* <div className="arrow-down-right">=&gt;</div> */}
