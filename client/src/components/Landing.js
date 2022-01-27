@@ -165,11 +165,12 @@ export const Landing = () => {
               One reason many salespeople stuggle with follow-up is the
               complicated, unreliable tools that are provided to them. Worse
               still, these tools often come at great expense! To solve this
-              problem, we have created Lead Zen, the industry's only
+              problem, we have created{" "}
+              <a href="https://www.leadzen.cc">Lead Zen</a>, the industry's only
               mobile-first CRM solution. This is a system that salespeople
-              actually WANT to use, and to deliver easy-to-read reports to
-              dealership management. To see this revolutionary software in
-              action, simply contact us using the link above!
+              actually WANT to use, and it's designed to deliver easy-to-read
+              reports to dealership management. To see this revolutionary
+              software in action, simply contact us using the link above!
             </p>
           </div>
           <img
